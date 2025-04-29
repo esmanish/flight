@@ -1,0 +1,12 @@
+{
+  "flight_feeder_ip": "192.168.31.123",
+  "refresh_interval": 5,
+  "map_settings": {
+    "center_lat": 14.5,
+    "center_lon": 74.0,
+    "default_zoom": 7,
+    "max_zoom": 12,
+    "min_zoom": 5,
+    "update_interval": 5
+  }
+}
