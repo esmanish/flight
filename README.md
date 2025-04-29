@@ -33,7 +33,7 @@ This project is perfect for students interested in:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/air-traffic-command-center.git
+   git clone https://github.com/esmanish/flight.git
    cd air-traffic-command-center
    ```
 
