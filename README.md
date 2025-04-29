@@ -99,15 +99,6 @@ air-traffic-command-center/
 3. The dashboard displays this information on an interactive map and in the sidebar
 4. The data is automatically refreshed every 5 seconds
 
-## Setting Up Your Own ADS-B Receiver
-
-If you want to set up your own FlightAware ADS-B receiver to use with this application:
-
-1. Purchase a FlightAware Pro Stick or compatible SDR (Software Defined Radio)
-2. Install PiAware (https://flightaware.com/adsb/piaware/) on a Raspberry Pi
-3. Connect the SDR to your Raspberry Pi
-4. Configure the receiver according to FlightAware's instructions
-5. Update the `flight_feeder_ip` in `config.json` to match your receiver's IP address
 
 ## Troubleshooting
 
@@ -126,15 +117,7 @@ If you want to set up your own FlightAware ADS-B receiver to use with this appli
 - Test the API endpoint directly by visiting `http://localhost:5000/api/aircraft`
 - Check if `last_raw_data.json` contains valid flight data
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
